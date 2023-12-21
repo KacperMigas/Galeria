@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl2.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <div id="baner">
+        <h1>Galeria obrazów</h1>
+    </div>
+    <div id="lewy">
+        <img class="zdjL" src="zdjecie.jpg" alt="zdjecie dnia">
+        <h3>Zdjecia opublikowali</h3>
+        <table>
+            <tr>
+                <td>Anna Porada</td>
+                <td>10 zdjec</td>
+            </tr>
+            <tr>
+                <td>Krzysztof Wasilewski</td>
+                <td>12 zdjec</td>
+            </tr>
+            <tr>
+                <td>Monika Kowalska</td>
+                <td>4 zdjecia</td>
+            </tr>
+        </table>
+    </div>
+    <div id="prawy">
+        <button id="prev" onclick="prev()">prev</button>
+        <img id="duzy" src="1.jpg" alt="galeria">
+        <button id="next" onclick="next()">next</button>
+        <hr>
+        <img class="mini" src="1.jpg" alt="miniatura" onclick="wyswietl_mini(1)">
+        <img class="mini" src="2.jpg" alt="miniatura" onclick="wyswietl_mini(2)">
+        <img class="mini" src="3.jpg" alt="miniatura" onclick="wyswietl_mini(3)">
+        <img class="mini" src="4.jpg" alt="miniatura" onclick="wyswietl_mini(4)">
+        <img class="mini" src="5.jpg" alt="miniatura" onclick="wyswietl_mini(5)">
+    </div>
+    <div id="stopka">
+        <a href="https://pixabay.com">Wiecej obrazów</a>
+        <p>Galerie wykonal Kacper Migas</p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
